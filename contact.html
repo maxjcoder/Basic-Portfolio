@@ -19,11 +19,9 @@
     <!-- NAV COMMENTS  -->
 
     <nav>
-        <ul>
-            <p>About</p>
-            <p>Portfolio</p>
-            <p>Contact</p>
-        </ul>
+        <a href="../Basic-Portfolio/index.html">About</a>
+        <a href="../Basic-Portfolio/portfolio.html">Portfolio</a>
+        <a href="../Basic-Portfolio/contact.html">Contact</a>
     </nav>
 
     <!-- CONTACT FORM HEADING COMMENTS -->
@@ -35,21 +33,20 @@
 
     <!-- CONTACT FORM COMMENTS -->
 
-    <form>
-        <label>Name</label>
-        <input type=“name”>
-        <label>Email</label>
-        <input type=“email”>
-        <label>Message</label>
-        <input type=“message”>
-        <br>    
-        <div>
-            <button>
-                <p>Submit</p>
-            </button>
-        </div>
-    </form>
+    <div class="contact-form">
 
+        <form id="contact-form" method="post" action="">
+            <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+
+            <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+            <input type="submit" class="form-control submit" value="Submit">
+
+        </form>
+
+    </div>
 
     <!-- FOOTER COMMENTS -->
 
