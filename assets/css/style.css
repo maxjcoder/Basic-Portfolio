@@ -4,6 +4,32 @@ html {
 
 .navbar {
     float: right;
+    display: block;
+    color: teal;
+    background-color: white;
+    text-align: right;
+    padding: 14px 16px;
+    border-block-end-width: 14px;
+    margin: 0;
+    width: 480;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainheader {
+    float: left;
+    display: block;
+    color: white;
+    background-color: teal;
+    text-align: right;
+    padding: 14px 16px;
+    border-block-end-width: 14px;
+    margin: 0;
+    width: 480;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mypicture {
@@ -11,10 +37,17 @@ html {
     padding: 30px;  
 }
 
+.par {
+    width: 960px;
+    padding-top: 5px;
+    background-color: white;
+}
+
 #parhead {
     font-size: 24px;
-    background-color: teal;
+    color: teal;
     text-align: center;
+    width: 240px;
 }
 
 #partext {
