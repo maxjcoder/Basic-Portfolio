@@ -31,10 +31,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; 
     text-decoration: none;
     text-align: right;
     background-color: white;
     color: teal;
+
+
 }
 
 .par {
@@ -46,18 +50,22 @@ body {
 
 #mypicture {
     float: left;
+    margin: 10px;
 }
 
 #parhead {
     font-size: 18px;
     font-style: normal;
     text-align: center;
+    width: 115px;
+    background-color: antiquewhite;
     color: teal;
 }
 
 #partext {
-    font-size: 18px;
     margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
