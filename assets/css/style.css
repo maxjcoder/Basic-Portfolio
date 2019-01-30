@@ -7,9 +7,10 @@ html {
 }
 
 .mypicture {
-    float: left;
+    float: left;    
 }
 
 #parhead {
     font-size: 24px;
+    background-color: teal;
 }
