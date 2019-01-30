@@ -2,59 +2,70 @@ html {
     background-image: url(../images/light-veneer.png);
 }
 
-.navbar {
-    float: right;
-    display: block;
-    color: teal;
-    background-color: white;
-    text-align: right;
-    padding: 14px 16px;
-    border-block-end-width: 14px;
-    margin: 0;
-    width: 480;
-    text-decoration: none;
+body {  
+    width: 960px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .mainheader {
     float: left;
-    display: block;
-    color: white;
-    background-color: teal;
-    text-align: right;
+    width: 46.8%;
     padding: 14px 16px;
     border-block-end-width: 14px;
-    margin: 0;
-    width: 480;
-    text-decoration: none;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: teal;
+    color: white;
 }
 
-.mypicture {
-    float: left;
-    padding: 30px;  
+.navbar {
+    float: right;
+    width: 46.5%;
+    padding: 14px 16px;
+    border-block-end-width: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    background-color: white;
+    color: teal;
 }
 
 .par {
-    width: 960px;
-    padding-top: 5px;
     background-color: white;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#mypicture {
+    float: left;
 }
 
 #parhead {
-    font-size: 24px;
-    color: teal;
+    font-size: 18px;
+    font-style: normal;
     text-align: center;
-    width: 240px;
+    color: teal;
 }
 
 #partext {
-    padding: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .footer {
+    border-top-color: teal;
+    border-top-style: solid;
+    padding: 1px;
     text-align: center;
-    font-size: 24px;
+    font-size: 12px;
+    background-color: slategray;
+    color: white;
 }   
