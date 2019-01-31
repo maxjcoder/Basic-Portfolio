@@ -1,5 +1,6 @@
 html {
     background-color: white;
+    background-image: 
 }
 
 body {  
@@ -15,6 +16,13 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-   
+    border: solid;
 }
 
+.par {
+    border: solid;
+}
+
+.footer {
+    border: solid;
+}
