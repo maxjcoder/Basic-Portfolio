@@ -1,10 +1,9 @@
 html {
-    background-image: url(../images/light-veneer.png);
+    background-color: white;
 }
 
 body {  
     width: 960px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,73 +14,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 25% 3.75% 5% 5%;
+    grid-template-columns: 25% 25% 25% 25%;
+   
 }
 
-.name {
-    margin-left: 25px;
-    margin-right: 10px;
-    margin-top: 30px;
-    text-align: center;
-    background-color: teal;
-    color: white;
-}
-
-.about {
-    margin-top: 33px;
-    padding-right: 100px;
-    text-align: right;
-}
-
-.portfolio {
-    margin-top: 33px;
-    margin-left: 27px;
-    padding-left: 100;
-    text-align: right;
-}
-
-.contact {
-    margin-top: 33px;
-    margin-left: 50px;
-    padding-left: -100px;
-    text-align: right;
-}
-
-.par {
-    margin-top: 1.5px;   
-    margin-bottom: 10px;
-    padding: 20px;
-    border: solid;
-    border-color: slategray;
-    background-color: white;
-}
-
-#mypicture {
-    float: left;
-    margin: 10px;
-}
-
-#parhead {
-    margin-left: 25px;
-    margin-right: 10px;
-    margin-top: 30px;
-    padding-left: 10px;
-    text-align: left;
-    color: teal;
-}
-
-#partext {
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer {
-    border-top-color: teal;
-    border-top-style: solid;
-    padding: 1px;
-    text-align: center;
-    font-size: 12px;
-    background-color: slategray;
-    color: white;
-}   
