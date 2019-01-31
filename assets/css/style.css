@@ -1,6 +1,5 @@
 html {
     background-color: white;
-    background-image: 
 }
 
 body {  
@@ -16,13 +15,40 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    border: solid;
+    border: 1px solid;
+}
+
+.name {
+    text-align: center;
+    border: 1px solid;
+}
+
+.about {
+    width: 60px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.portfolio {
+    width: 60px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.contact {
+    width: 60px;
+    text-align: center;
+    border: 1px solid;
 }
 
 .par {
-    border: solid;
+    border: 1px solid;
+}
+
+.contact-form {
+    border: 1px solid;
 }
 
 .footer {
-    border: solid;
+    border: 1px solid;
 }
