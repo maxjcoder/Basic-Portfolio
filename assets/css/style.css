@@ -13,6 +13,8 @@ body {
 .mainheader {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
+    clear: both;
+    height: 60px;
 }
 
   /* Need background of the content to match each page */
@@ -36,6 +38,7 @@ body {
   /* Header nav items */
 
 .name {
+    float: left;
     text-align: center;
     border: 1px solid;
     background-color: #4aaaa5;
@@ -43,19 +46,21 @@ body {
 }
 
 .about {
+    float: right;
     width: 62px;
     border: 1px solid;
-    
     text-align: center;
 }
 
 .portfolio {
+    float: right;
     width: 62px;
     text-align: center;
     border: 1px solid;
 }
 
 .contact {
+    float: right;
     width: 62px;
     text-align: center;
     border: 1px solid;
