@@ -8,13 +8,24 @@ body {
     margin-right: auto;
 }
 
+  /* Need the header line to be white */
+
 .mainheader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
 }
+
+  /* Need background of the content to match each page */
 
 .background {
     background-image: url(../images/light-veneer.png)
 }
+
+.mainportfolio {
+    background-image: url(../images/light-veneer.png)
+}
+
+  /* Set the header and portfilio items on a grid system */
 
 .grid {
     display: grid;
@@ -22,41 +33,75 @@ body {
     border: 1px solid;
 }
 
+  /* Header nav items */
+
 .name {
     text-align: center;
     border: 1px solid;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 .about {
-    width: 60px;
-    text-align: center;
+    width: 62px;
     border: 1px solid;
-}
-
-.mainportfolio {
-    background-image: url(../images/light-veneer.png)
+    
+    text-align: center;
 }
 
 .portfolio {
-    width: 60px;
+    width: 62px;
     text-align: center;
     border: 1px solid;
 }
 
 .contact {
-    width: 60px;
+    width: 62px;
     text-align: center;
     border: 1px solid;
 }
 
-.par {
+  /* About me heading image and text */
+
+.indexcontent {
+    background-color: white;
     border: 1px solid;
+    background-image: url(../images/light-veneer.png)
 }
+
+.paragraph {
+    margin: 50px;
+    border: 1px solid;
+    background-color: white;
+}
+
+#heading {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+#picture {
+    float: left;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  /* Contact Form */
 
 .contact-form {
     border: 1px solid;
 }
 
+  /* Footer styling */
+
 .footer {
-    border: 1px solid;
+    border-top: 8px solid;
+    border-top-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #666666;
+    color: white;
 }
