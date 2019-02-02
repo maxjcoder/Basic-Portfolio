@@ -29,15 +29,7 @@ body {
     background-image: url(../images/light-veneer.png)
 }
 
-  /* Set the header and portfilio items on a grid system */
-
-.grid {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    border: 1px solid;
-}
-
-  /* Header nav items */
+  /* Header (name and nav items) */
 
 .name {
     float: left;
@@ -61,7 +53,7 @@ body {
 
 .portfolio {
     float: right;
-    width: 75px;
+    width: 87px;
     padding-top: 7px;
     text-align: center;
     border-right: 1px solid grey;
@@ -75,11 +67,14 @@ body {
     text-align: center;
     
 }
+  /* Beg. Portfilio Content Area */
 
-  /* About me heading image and text */
+
+       /* About me - Two Containers for: heading image and text */
 
 .indexcontent {
     background-color: white;
+    margin-bottom: 0%;
     border: 1px solid;
     border-bottom-color: white;
     border-left-color: white;
@@ -138,6 +133,31 @@ body {
     color: #777777;
 }
 
+  /* Beg. Portfilio Content Area */
+
+         /* Portfolio - Two Containers for: five portfolio items */
+
+.portfoliocontent {
+    background-color: white;
+    border: 1px solid;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: #cccccc;
+}
+
+         /* Set the portfilio items on a grid system */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-left: 35px;
+    border: 1px solid;
+    background-color: white;
+}
+
   /* Contact Form */
 
 .contact-form {
@@ -147,10 +167,11 @@ body {
   /* Footer styling */
 
 .footer {
-    border-top: 8px solid;
+    border-top: 10px solid;
     border-top-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: #666666;
     color: white;
+    padding: 20px;
 }
