@@ -151,9 +151,12 @@ body {
   .grid {
     display: grid;
     grid-template-columns: 25% 25%;
+    grid-row-gap: 6ch;
+    grid-column-gap: 4ch;
     margin-top: 35px;
     margin-right: 35px;
     margin-left: 35px;
+    padding-bottom: 48px;
     background-color: white;
     line-height: 25px;
     text-align: center;
@@ -181,7 +184,7 @@ body {
     text-align: center;
     height: 28px;
     margin-top: 170px;
-    margin-left: 204px;
+    margin-left: 238px;
     position: absolute;
 }
 
@@ -193,7 +196,7 @@ body {
     text-align: center;
     height: 28px;
     height: 28px;
-    margin-top: 374px;
+    margin-top: 424px;
     position: absolute;
 }
 
@@ -204,8 +207,8 @@ body {
     background-color: #4aaaa5;
     text-align: center;
     height: 28px;
-    margin-top: 374px;
-    margin-left: 204px;
+    margin-top: 424px;
+    margin-left: 238px;
     position: absolute;
 }
 
@@ -216,7 +219,7 @@ body {
     background-color: #4aaaa5;
     text-align: center;
     height: 28px;
-    margin-top: 576px;
+    margin-top: 678px;
     position: absolute;
 }
 
@@ -226,14 +229,36 @@ body {
     border: 1px solid;
 }
 
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+label {
+    padding-right: 10px;
+}
+
   /* Footer styling */
 
 .footer {
     border-top: 10px solid;
     border-top-color: #4aaaa5;
+    padding-top: 22px;
+    padding-bottom: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    line-height: 16px;
     background-color: #666666;
     color: white;
-    padding: 20px;
 }
